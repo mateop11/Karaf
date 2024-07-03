@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1720048841929
+Build-Jdk-Spec: 17
+Bundle-Activator: com.example.Activator
+Bundle-Description: bundlemat OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: bundlemat Bundle
+Bundle-SymbolicName: bundlemat
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: com.example;uses:="org.osgi.framework";version="1.0.0.SN
+ APSHOT"
+Import-Package: java.io,java.lang,org.osgi.framework;version="[1.10,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
